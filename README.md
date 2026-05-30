@@ -1,12 +1,11 @@
 # TikTokLiveBridge
-A Spigot/Paper plugin that displays TikTok LIVE events (comments, follows, joins, gifts) in Minecraft server chat in real time.<BR>
-Japanese version: [README_JP.md](./README_JP.md)
+
 ---
 
 ## Overview
 TikTokLiveBridge is a bridge plugin that connects TikTok LIVE events to Minecraft server chat in real time.  
 It allows streamers to directly link their TikTok live audience with in-game players.
-
+Japanese version: [README_JP.md](./README_JP.md)
 ---
 
 ## Features
@@ -76,7 +75,7 @@ features:
 ```
 ---
 
-## 注意事項
+## Notes
 - The plugin only works while TikTok LIVE is active 
 - If the username is not set, the plugin will disable itself 
 - TikTok API changes may break functionality in the future
