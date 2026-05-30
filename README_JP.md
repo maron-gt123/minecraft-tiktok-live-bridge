@@ -3,6 +3,7 @@
 ---
 
 ## 概要
+
 TikTok LIVE のイベントを Minecraft サーバー内チャットへリアルタイムで表示するブリッジプラグインです。
 配信とゲーム内コミュニティを直接つなぐことができます。
 English version: [README.md](./README.md)

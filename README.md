@@ -3,6 +3,7 @@
 ---
 
 ## Overview
+
 TikTokLiveBridge is a bridge plugin that connects TikTok LIVE events to Minecraft server chat in real time.  
 It allows streamers to directly link their TikTok live audience with in-game players.
 Japanese version: [README_JP.md](./README_JP.md)
