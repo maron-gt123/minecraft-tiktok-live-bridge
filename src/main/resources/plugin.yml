@@ -1,0 +1,6 @@
+name: TikTokLiveBridge
+version: 1.0.0
+main: net.marongt123.tiktoklivebridge.TikTokLiveBridge
+api-version: "1.21"
+author: maron-gt123
+description: TikTok Live Bridge

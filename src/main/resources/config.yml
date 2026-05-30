@@ -1,0 +1,14 @@
+tiktok:
+  username: "your_tiktok_username"
+
+features:
+  comment: true
+  follow: true
+  join: true
+  gift: true
+
+messages:
+  comment: "%user%: %message%"
+  follow: "%user% がフォローしました！"
+  join: "%user% が参加しました！"
+  gift: "%user% が %gift% を送りました！"
