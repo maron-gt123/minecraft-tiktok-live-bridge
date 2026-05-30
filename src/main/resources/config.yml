@@ -1,6 +1,9 @@
+# TikTok account configuration
 tiktok:
+  # TikTok username (without @)
   username: "your_tiktok_username"
 
+# Feature toggles (true = enabled, false = disabled)
 features:
   comment: true
   follow: true
@@ -8,7 +11,34 @@ features:
   gift: true
 
 messages:
+  # =========================
+  # English (default)
+  # =========================
   comment: "%user%: %message%"
-  follow: "%user% がフォローしました！"
-  join: "%user% が参加しました！"
-  gift: "%user% が %gift% を送りました！"
+  follow: "%user% just followed!"
+  join: "%user% joined!"
+  gift: "%user% sent %gift%!"
+
+  # =========================
+  # Japanese sample
+  # =========================
+  # comment: "%user%: %message%"
+  # follow: "%user% がフォローしました！"
+  # join: "%user% が参加しました！"
+  # gift: "%user% が %gift% を送りました！"
+
+  # =========================
+  # Korean sample
+  # =========================
+  # comment: "%user%: %message%"
+  # follow: "%user%님이 팔로우했습니다!"
+  # join: "%user%님이 입장했습니다!"
+  # gift: "%user%님이 %gift%를 보냈습니다!"
+
+  # =========================
+  # Chinese (Simplified) sample
+  # =========================
+  # comment: "%user%: %message%"
+  # follow: "%user% 关注了直播！"
+  # join: "%user% 进入了直播！"
+  # gift: "%user% 送出了 %gift%！"

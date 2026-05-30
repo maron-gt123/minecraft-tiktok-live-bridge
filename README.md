@@ -42,8 +42,8 @@ features:
 
 messages:
   comment: "%user%: %message%"
-  follow: "%user% followed the stream!"
-  join: "%user% joined the stream!"
+  follow: "%user% just followed!"
+  join: "%user% joined!"
   gift: "%user% sent %gift%!"
 ```
 
@@ -70,11 +70,11 @@ features:
 Customize displayed messages for each event
 
 ```yaml
-features:
+messages:
   comment: "%user%: %message%"
-  follow: "%user% がフォローしました！"
-  join: "%user% が参加しました！"
-  gift: "%user% が %gift% を送りました！"
+  follow: "%user% just followed!"
+  join: "%user% joined!"
+  gift: "%user% sent %gift%!"
 ```
 ---
 

@@ -40,9 +40,9 @@ features:
 
 messages:
   comment: "%user%: %message%"
-  follow: "%user% がフォローしました！"
-  join: "%user% が参加しました！"
-  gift: "%user% が %gift% を送りました！"
+  follow: "%user% just followed!"
+  join: "%user% joined!"
+  gift: "%user% sent %gift%!"
 ```
 
 ### tiktok
@@ -68,11 +68,11 @@ features:
 各メッセージ内容を設定
 
 ```yaml
-features:
+messages:
   comment: "%user%: %message%"
-  follow: "%user% がフォローしました！"
-  join: "%user% が参加しました！"
-  gift: "%user% が %gift% を送りました！"
+  follow: "%user% just followed!"
+  join: "%user% joined!"
+  gift: "%user% sent %gift%!"
 ```
 ---
 
